@@ -1,0 +1,5 @@
+Good
+Bad
+Great
+Sad
+Meh
