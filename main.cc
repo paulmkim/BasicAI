@@ -16,16 +16,15 @@ string keyword(string sentence)
 	}
 
 	words = new string[numWords];
-	for (int i = 0; i < setence.size(); i++)
+	for (int i = 0; i < sentence.size(); i++)
 	{
 		int counter = 0;
-		while (sentence[i] != ' ')
+		while (i < sentence.size() && sentence[i] != ' ')
 		{
 			string[counter].append(sentence[i]);
 			i++;
 		}
 		counter++;
-		i++;
 	}
 
 }
@@ -54,6 +53,7 @@ int main()
 	if (keyWord == good && isNeg == TRUE)
 	{
 		//later DECK THE HALLS 
+		cout << "nothing" << endl;
 	}
 
 }
