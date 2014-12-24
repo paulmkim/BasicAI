@@ -4,12 +4,12 @@ using namespace std;
 
 string keyword(string sentence)
 {
-	//ALLISON
+	//ALLISON DOES THIS PART
 }
 
 bool negative(string sentence)
 {
-	//PAUL
+	//PAUL DOES THIS PART JINGLE BELLS
 }
 int main()
 {
@@ -21,7 +21,7 @@ int main()
 	isNeg = negative(response);
 	if (keyWord == good && isNeg == TRUE)
 	{
-		//later
+		//later DECK THE HALLS 
 	}
 
 }
