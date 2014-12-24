@@ -16,12 +16,13 @@ string keyword(string sentence)
 	}
 
 	words = new string[numWords];
+	int counter = 0; 
+
 	for (int i = 0; i < sentence.size(); i++)
 	{
-		int counter = 0;
 		while (i < sentence.size() && sentence[i] != ' ')
 		{
-			string[counter].append(sentence[i]);
+			words[counter] += sentence[i];
 			i++;
 		}
 		counter++;
