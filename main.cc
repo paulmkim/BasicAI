@@ -4,7 +4,7 @@ using namespace std;
 
 string keyword(string sentence)
 {
-	//ALLISON DOES THIS PART
+
 }
 
 bool negative(string sentence)
